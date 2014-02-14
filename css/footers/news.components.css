@@ -17,8 +17,8 @@ a:focus{outline:none;}
 .clearfix{zoom:1;}
 .clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
 .wrapper{width:1000px; margin:0 auto;}
-.left{float:left;}
-.right{float:right;}
+.left, .middle{float:left; display:inline;}
+.right{float:right; display:inline;}
 .footer{margin-top:20px; border-top:4px solid #595959; padding-top:10px; text-align:center; font-size:13px; color:#666; line-height:30px;}
 .footer a, .footer a:visited{color:#666;}
 .footer a:hover{color:#228fdd;}

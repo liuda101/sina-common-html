@@ -17,10 +17,15 @@ a:focus{outline:none;}
 .clearfix{zoom:1;}
 .clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
 .wrapper{width:1000px; margin:0 auto;}
-.left{float:left;}
-.right{float:right;}
+.left, .middle{float:left; display:inline;}
+.right{float:right; display:inline;}
 .column_680_300 .left{width:680px;}
 .column_680_300 .right{width:300px;}
 .column_670_300 .left{width:670px;}
 .column_670_300 .right{width:300px;}
 .column_485_485 .left, .column_485_485 .right{width:485px;}
+.column_300_680 .left{width:300px;}
+.column_300_680 .right{width:680px;}
+.column_340_360_260 .left{width:340px;}
+.column_340_360_260 .middle{width:360px; margin-left:20px;}
+.column_340_360_260 .right{width:260px;}

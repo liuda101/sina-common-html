@@ -11,12 +11,16 @@ hr{
   margin-bottom:20px;
 }
 
-.left, .right{
+.left, .right, .middle{
   padding:20px 0;
 }
 
 .left{
   background-color:#eee;
+}
+
+.middle{
+  background-color:#b79;
 }
 
 .right{
