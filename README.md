@@ -11,7 +11,9 @@ For html module development, we use [grunt-html-include gruntplugin](https://git
 
 2. Footers
 
-    footer_common
     footer_ent
+
+    footer_news
+    
     footer_sports
 
