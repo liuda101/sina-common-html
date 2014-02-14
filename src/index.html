@@ -1,9 +1,15 @@
-@@include('html_intro', {"componentCSS": "../css/components.css", "css": "../css/index.css"})
+@@include('html_intro', {"componentCSS": "../css/index.components.css", "css": "../css/index.css"})
 
 <div class="wrapper">
-@@include('header')
-@@include('column_485_485', {"left": "@@include('left')", "right": "@@include('right')"})
-@@include('footer_sports')
+  <div class="header">
+    <h1>HTML Include Examples</h1>
+  </div>
+  <hr>
+  <div class="c">
+    <ul>
+      <li><a href="../dest/footers.html" target="_blank">页脚</a></li>
+    </ul>
+  </div>
 </div>
 
 @@include('html_outro')

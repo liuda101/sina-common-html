@@ -1,0 +1,16 @@
+h1{
+  font-size:30px;
+  line-height:60px;
+  font-weight:normal;
+}
+hr{
+  margin-bottom:20px;
+}
+
+.c a{
+  font-size:20px;
+  color:#888;
+}
+.c a:hover{
+  color:#f00;
+}
