@@ -19,6 +19,8 @@ a:focus{outline:none;}
 .wrapper{width:1000px; margin:0 auto;}
 .left{float:left;}
 .right{float:right;}
+.column_680_300 .left{width:680px;}
+.column_680_300 .right{width:300px;}
 .column_670_300 .left{width:670px;}
 .column_670_300 .right{width:300px;}
 .column_485_485 .left, .column_485_485 .right{width:485px;}
