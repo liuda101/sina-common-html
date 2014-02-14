@@ -1,0 +1,19 @@
+@@include('html_intro', {"componentCSS": "../css/footers.components.css", "css": "../css/footers.css"})
+
+<div class="wrapper">
+  <div class="header">
+    <h1>页脚们</h1>
+  </div>
+  <hr>
+  <div class="c">
+    @@include('iframe', {"height": "250px", "width": "1000px", "src": "../dest/footers/ent.html", "id": "id1"})
+    <br>
+    @@include('iframe', {"height": "250px", "width": "1000px", "src": "../dest/footers/news.html", "id": "id1"})
+    <br>
+    @@include('iframe', {"height": "250px", "width": "1000px", "src": "../dest/footers/sports.html", "id": "id1"})
+    <br>
+
+  </div>
+</div>
+
+@@include('html_outro')

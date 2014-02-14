@@ -24,14 +24,18 @@ module.exports = function(grunt){
           workingDir: 'src',
         },
         files: {
-          'dest/index.html': 'src/index.html',
+          'dest': [
+            'src/index.html',
+            'src/footers.html',
+            'src/footers/*.html'
+          ]
         }
       }
     },
 
     watch: {
       html : {
-        files : ['src/*.html'],
+        files : ['src/*.html', 'src/*/*.html'],
         tasks : ['html_include']
       }
     }
