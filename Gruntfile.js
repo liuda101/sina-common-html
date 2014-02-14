@@ -25,8 +25,7 @@ module.exports = function(grunt){
         },
         files: {
           'dest': [
-            'src/index.html',
-            'src/footers.html',
+            'src/*.html',
             'src/footers/*.html'
           ]
         }

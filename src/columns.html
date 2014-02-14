@@ -1,0 +1,20 @@
+@@include('html_intro', {"componentCSS": "../css/columns.components.css", "css": "../css/columns.css"})
+
+<div class="wrapper">
+  <div class="header">
+    <h1>多列结构</h1>
+  </div>
+  <hr>
+  <div class="c">
+    <div class="row">
+      @@include('column_670_300', {"left": "Width: 670px", "right": "Width:300px"})
+    </div>
+
+    <div class="row">
+      @@include('column_485_485', {"left": "Width: 485px", "right": "Width:485px"})
+    </div>
+
+  </div>
+</div>
+
+@@include('html_outro')

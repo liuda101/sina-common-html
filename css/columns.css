@@ -1,0 +1,24 @@
+h1{
+  font-size:30px;
+  line-height:60px;
+  font-weight:normal;
+}
+hr{
+  margin-bottom:20px;
+}
+
+.row{
+  margin-bottom:20px;
+}
+
+.left, .right{
+  padding:20px 0;
+}
+
+.left{
+  background-color:#eee;
+}
+
+.right{
+  background-color:#a8e;
+}
